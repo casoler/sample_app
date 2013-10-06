@@ -20,15 +20,16 @@ group :assets do
 end
 
 group :development do
-	gem 'rspec-rails', '~> 2.12.0'
+	gem 'rspec-rails', '~> 2.11.0'
 end 
 
 group :test do
-	gem "rspec", "~> 2.12.0"
+	gem "rspec", "~> 2.11.0"
 	gem "webrat", "~> 0.7.3"
 end
 
 gem 'jquery-rails'
+gem "spork-rails"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
