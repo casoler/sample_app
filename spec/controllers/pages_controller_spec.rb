@@ -59,7 +59,4 @@ describe PagesController do
                                     :content => @base_title + " | Help")
     end
   end
-
-
-
 end
