@@ -30,6 +30,7 @@ group :test do
 	gem "rspec", "~> 2.11.0"
 	gem "webrat", "~> 0.7.3"
 	gem "factory_girl_rails", '1.0'
+	gem "codeclimate-test-reporter", require: nil
 end
 
 gem 'jquery-rails'
